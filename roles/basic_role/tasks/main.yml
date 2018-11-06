@@ -1,0 +1,7 @@
+---
+- name: "Basic pkgs stack"
+  apt: pkg={{ item }} state: present
+  with_items:
+  - vim
+  - git
+  - dnsutils

@@ -2,7 +2,7 @@
 # If we wanted to get whatever is the latest not 
 # marked as a release candidate we could instead
 # not specify a version but simply `docker-ce`.
-docker_version: 'docker-ce'
+# docker_version: 'docker-ce'
 # docker_version: '17.09.0~ce-0~ubuntu'
 
 # The release channel to look for packages.

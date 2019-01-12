@@ -3,6 +3,7 @@
 # marked as a release candidate we could instead
 # not specify a version but simply `docker-ce`.
 # docker_version: '17.09.0~ce-0~ubuntu'
+docker_version: '18.06.1~ce~3-0~ubuntu'
 
 # The release channel to look for packages.
 # If your curious about what are the channels and which

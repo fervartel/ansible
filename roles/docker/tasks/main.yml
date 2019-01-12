@@ -51,8 +51,8 @@
 # edge (17.11-rc3)?
 - name: 'install docker'
   apt:
-    #name: 'docker-ce={{ docker_version }}'
-    name: 'docker-ce'
+    name: 'docker-ce={{ docker_version }}'
+    #name: 'docker-ce'
     state: 'present'
 
 

@@ -1,5 +1,7 @@
 [linux]
-172.28.128.4
+kube1
+kube2
+ubuntu1
 
 [win]
 172.28.128.7

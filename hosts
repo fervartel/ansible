@@ -7,13 +7,13 @@ ubuntu1
 windows10
 
 [win:vars]
-ansible_user=vagrant
-ansible_password=vagrant
-ansible_connection=winrm
-ansible_winrm_server_cert_validation=ignore
+#ansible_user=vagrant
+#ansible_password=vagrant
+#ansible_connection=winrm
+#ansible_winrm_server_cert_validation=ignore
 
 [linux:vars]
 # Required for sshpass to login using user and pass
-ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
+#ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
 # Required for ansible to use python3 (Default is python2)
-ansible_python_interpreter=/usr/bin/python3
+#ansible_python_interpreter=/usr/bin/python3

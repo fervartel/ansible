@@ -1,9 +1,9 @@
 ---
-- name: 'Basic pkgs stack'
+- name: Basic pkgs stack
   apt:
     name:
-      - 'vim'
-      - 'git'
-      - 'dnsutils'
-    state: 'present'
-    update_cache: 'yes'
+      - vim
+      - git
+      - dnsutils
+    state: present
+    update_cache: yes

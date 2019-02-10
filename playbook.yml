@@ -1,7 +1,0 @@
----
-- hosts: linux
-  become: true
-  roles:
-    - basic_role
-    - zshell
-    - docker

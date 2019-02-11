@@ -2,6 +2,8 @@
 kube1
 kube2
 ubuntu1
+ubuntu2
+ubuntu3
 
 [win]
 windows10
@@ -13,6 +15,8 @@ windows10
 #ansible_winrm_server_cert_validation=ignore
 
 [linux:vars]
+#ansible_user=vagrant
+
 # Required for sshpass to login using user and pass
 #ansible_ssh_extra_args='-o StrictHostKeyChecking=no'
 # Required for ansible to use python3 (Default is python2)

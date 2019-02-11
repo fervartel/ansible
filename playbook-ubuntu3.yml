@@ -1,5 +1,5 @@
 ---
-- hosts: ubuntu1
+- hosts: default
   become: true
   roles:
     - basic_role

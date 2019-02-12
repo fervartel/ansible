@@ -31,3 +31,5 @@
 
 - name: "KUBERNETES - KEEP SWAP OFF AFTER REBOOT"
   shell: sed -i '/ swap / s/^/#/' /etc/fstab
+  args:
+    warn: false

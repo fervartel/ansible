@@ -24,5 +24,5 @@ Some advantage of Ansible for configuration management are:
 - Easy to use.
 
 ## Useful references
-https://www.ansible.com/blog/connecting-to-a-windows-host
-https://www.youtube.com/watch?v=icR-df2Olm8&list=PLFiccIuLB0OiWh7cbryhCaGPoqjQ62NpU
+- https://www.ansible.com/blog/connecting-to-a-windows-host
+- https://www.youtube.com/watch?v=icR-df2Olm8&list=PLFiccIuLB0OiWh7cbryhCaGPoqjQ62NpU
